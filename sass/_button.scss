@@ -1,0 +1,36 @@
+.btn {
+  text-align: center;
+  font: inherit;
+  font-weight: 700;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+  padding: 1.6rem 2.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-primary-light;
+    }
+  }
+
+  &--secondary {
+    background-color: $color-grey;
+    color: $color-secondary;
+
+    &:hover {
+      background-color: $color-secondary;
+      color: $color-white;
+    }
+  }
+
+  &--transparent-bg {
+    background-color: transparent;
+    color: $color-secondary-light;
+  }
+}
